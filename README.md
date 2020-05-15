@@ -6,6 +6,7 @@ I made this as a way to submit answers and get a new clue for a puzzle game
 with a terminal looking environment, but it can be configured to to anything you would like.
 
 **Only tested in Google Chrome**
+
 Commands are fully customizable and can be created or edited in the commands.js script
 
 To Use
