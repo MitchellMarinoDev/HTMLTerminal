@@ -1,7 +1,7 @@
 HTMLTerminal
 ============
 A HTML terminal that can be configured and used however.
-
+Verry lightly based off of [HTML5 Web Terminal] (https://codepen.io/burncode/pen/YpbyVb) by **burncode**
 I made this as a way to submit answers and get a new clue for a puzzle game
 with a terminal looking environment, but it can be configured to to anything you would like.
 
