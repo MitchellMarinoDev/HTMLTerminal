@@ -10,18 +10,18 @@ Commands are fully customizable and can be created or edited in the commands.js 
 To Use
 ------
 To use this script, put this HTML in the webpage where you want the terminal to be
-`
+```HTML
 <div id="terminal">
    <output></output>
    <div id="input-line" class="input-line">
        <div class="prompt">[Name@terminal] $ </div><div><input class="cmdline" autofocus /></div>
    </div>
 </div>
-`
+```
 
 You also need a script to create an instance of "terminal" and call .init()
 
-`
+``` Javascript
 var term = new Terminal(commands);
 term.init();
-`
+```
