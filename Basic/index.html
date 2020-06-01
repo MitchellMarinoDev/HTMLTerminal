@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Basic Terminal</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata"
+          rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="src/favicon.png" type="image/png">
+</head>
+<body>
+    <div id="header">
+        <img align="left" src="src/pic.png" width="200" height="200" style="padding: 0px 0px 20px 10px">
+        <h1 style="letter-spacing: 4px; font-size:64px; margin: 20px 0px 0px 0px;">Basic Terminal</h1><p>
+        </p><p>Enter "help" for more information, and a list of commands</p>
+    </div>
+
+    <div id="terminal" style="padding: 10px 20px 20px 20px">
+        <output></output>
+        <div id="input-line" class="input-line">
+            <!--Set Prompt Here-->
+            <div class="prompt">[root@terminal] > </div><div ><input class="cmdline" autofocus spellcheck="false" /></div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="Terminal.js"></script>
+    <script src="Commands.js"></script>
+</body>
+</html>
